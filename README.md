@@ -8,6 +8,7 @@ I build small, sharp open-source tools for security work. Writing at **[muratbek
 
 | Project | What it does |
 |---|---|
+| [**agentcore-iam-audit**](https://github.com/garag0l/agentcore-iam-audit) | Finds Amazon Bedrock AgentCore IAM paths: agents reaching other agents' memory, runtimes and code interpreters, and code-interpreter privilege escalation. |
 | [**mcp-sdk-audit**](https://github.com/garag0l/mcp-sdk-audit) | Finds MCP SDK versions with known advisories, and the code that stays exposed after you upgrade. Zero deps, SARIF, GitHub Action. |
 | [**semgrep-rules-mcp**](https://github.com/garag0l/semgrep-rules-mcp) | Semgrep rules for MCP servers: tool poisoning, shell injection from tool arguments, and the SDK settings 2026's advisories made mandatory. |
 | [**nuclei-templates-mcp**](https://github.com/garag0l/nuclei-templates-mcp) | Nuclei templates for exposed MCP servers: unauthenticated access, tools anyone can call, CVE-2026-33252 cross-site requests, DNS rebinding. |
@@ -15,7 +16,7 @@ I build small, sharp open-source tools for security work. Writing at **[muratbek
 
 #### 🛠️ Building now
 
-- AWS: Bedrock AgentCore IAM audit
-- Cloud detection content for AWS IAM persistence and privilege escalation
+- skills-lock: hash-pinning and change alerts for installed Claude/Codex agent skills
+- AWS trust-policy drift detection (`UpdateAssumeRolePolicy` persistence)
 
 <sub>All tools are for authorized testing and defense only.</sub>
