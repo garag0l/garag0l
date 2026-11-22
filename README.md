@@ -19,11 +19,11 @@ I build small, sharp open-source tools for security work. Writing at **[muratbek
 | Project | What it does |
 |---|---|
 | [**turkmen-translit**](https://github.com/garag0l/turkmen-translit) | Transliterate Turkmen between the legacy Cyrillic and the current official Latin alphabet — correctly, including the letters other tools get wrong (Ж→ž vs Җ→j, Й→ý, Ң→ň). Zero-dependency Python + JS library + `tr-tm` CLI. On PyPI and npm. |
-| [**turkmen-num2words**](https://github.com/garag0l/turkmen-num2words) | Spell out integers in Turkmen: `1234` → `müň iki ýüz otuz dört`. Grounded in primary sources and verified against a published grammar's worked example. Zero-dependency Python library + `tm-num` CLI. |
+| [**turkmen-num2words**](https://github.com/garag0l/turkmen-num2words) | Spell out integers in Turkmen: `1234` → `müň iki ýüz otuz dört`. Grounded in primary sources and verified against a published grammar's worked example. Zero-dependency **Python + JS** library + `tm-num` CLI. |
 
 #### 🛠️ Building now
 
-- turkmen-num2words JS port, a Turkmen transliteration skill, and a Turkmen security glossary
+- a Turkmen transliteration skill and a Turkmen security glossary
 - skills-lock: hash-pinning and change alerts for installed Claude/Codex agent skills
 - AWS trust-policy drift detection (`UpdateAssumeRolePolicy` persistence)
 
