@@ -8,8 +8,8 @@ I build small, sharp open-source tools for security work. Writing at **[muratbek
 
 | Project | What it does |
 |---|---|
-| [**agentcore-iam-audit**](https://github.com/garag0l/agentcore-iam-audit) | Finds Amazon Bedrock AgentCore IAM paths: agents reaching other agents' memory, runtimes and code interpreters, and code-interpreter privilege escalation. |
-| [**mcp-sdk-audit**](https://github.com/garag0l/mcp-sdk-audit) | Finds MCP SDK versions with known advisories, and the code that stays exposed after you upgrade. Zero deps, SARIF, GitHub Action. |
+| [**agentcore-iam-audit**](https://github.com/garag0l/agentcore-iam-audit) | Finds Amazon Bedrock AgentCore IAM paths: agents reaching other agents' memory, runtimes, code interpreters and tool credentials, and code-interpreter privilege escalation. |
+| [**mcp-sdk-audit**](https://github.com/garag0l/mcp-sdk-audit) | Finds MCP SDK versions with known advisories (TypeScript, Python, Go, Rust, Ruby, PHP, Inspector), and the code that stays exposed after you upgrade. Zero deps, SARIF, GitHub Action. |
 | [**semgrep-rules-mcp**](https://github.com/garag0l/semgrep-rules-mcp) | Semgrep rules for MCP servers: tool poisoning, shell injection from tool arguments, and the SDK settings 2026's advisories made mandatory. |
 | [**nuclei-templates-mcp**](https://github.com/garag0l/nuclei-templates-mcp) | Nuclei templates for exposed MCP servers: unauthenticated access, tools anyone can call, CVE-2026-33252 cross-site requests, DNS rebinding. |
 | [**mcp-issuer-check**](https://github.com/garag0l/mcp-issuer-check) | Shows which OAuth server your MCP servers send your login to, catches issuer impersonation, and alerts when it changes. |
