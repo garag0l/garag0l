@@ -26,5 +26,7 @@ I build small, sharp open-source tools for security work. Writing at **[muratbek
 - a Turkmen transliteration skill and a Turkmen security glossary
 - skills-lock: hash-pinning and change alerts for installed Claude/Codex agent skills
 - AWS trust-policy drift detection (`UpdateAssumeRolePolicy` persistence)
+- vendor-trust-audit: find and rank AWS roles that third-party vendors can assume (dormant trust, ExternalId-only trust, secret reach)
+- secret-reach: the exact secret rotation list for a compromised AWS principal
 
 <sub>All tools are for authorized testing and defense only.</sub>
