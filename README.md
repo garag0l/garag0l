@@ -15,6 +15,8 @@ I build small, sharp open-source tools for security work. Writing at **[muratbek
 | [**mcp-issuer-check**](https://github.com/garag0l/mcp-issuer-check) | Shows which OAuth server your MCP servers send your login to, catches issuer impersonation, and alerts when it changes. |
 | [**vendor-trust-audit**](https://github.com/garag0l/vendor-trust-audit) | Finds and ranks the AWS roles third-party vendors can assume — dormant trust, ExternalId-only trust, and what secrets each vendor can reach. SARIF, GitHub Action. |
 | [**secret-reach**](https://github.com/garag0l/secret-reach) | The exact secret-rotation scope for a compromised AWS principal: which secrets it can read, across accounts and regions. Never reads secret values. |
+| [**trust-policy-watch**](https://github.com/garag0l/trust-policy-watch) | Snapshots AWS IAM role trust policies and diffs them to catch `UpdateAssumeRolePolicy` persistence — new external/wildcard principals, dropped ExternalId/MFA. Read-only, SARIF. |
+| [**skills-lock**](https://github.com/garag0l/skills-lock) | Pins a lockfile of SHA-256 hashes for your installed Claude Code / Codex agent skills and flags any later tampering or drift. Zero dependencies. |
 
 #### 🇹🇲 Türkmen dili / Turkmen language
 
@@ -26,7 +28,5 @@ I build small, sharp open-source tools for security work. Writing at **[muratbek
 #### 🛠️ Building now
 
 - a Turkmen transliteration skill and a Turkmen security glossary
-- skills-lock: hash-pinning and change alerts for installed Claude/Codex agent skills
-- AWS trust-policy drift detection (`UpdateAssumeRolePolicy` persistence)
 
 <sub>All tools are for authorized testing and defense only.</sub>
